@@ -12,7 +12,7 @@ end
 
 def valid_move?(board, index)
   flag
-  index > 8 || index < 0 ? false : true
+  index > 8 || index < 0 ? flag = false : true
 end
 
 def position_taken?(board, index)
