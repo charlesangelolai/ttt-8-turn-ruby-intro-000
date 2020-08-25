@@ -42,6 +42,6 @@ def turn(board)
   until valid_move?(input) == true
     turn(board)
   end
-  move(board, input, token)
+  move(board, input)
   display_board(board)
 end
