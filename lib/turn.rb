@@ -8,3 +8,4 @@ end
 
 def valid_move?(board, index)
   index > 8 || index < 0 : true
+end
