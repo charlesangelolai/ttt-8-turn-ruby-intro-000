@@ -1,3 +1,4 @@
+# Should accept a board as an argument and print out the current state of the board for the user.
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts " ----------- "
