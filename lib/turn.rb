@@ -42,6 +42,4 @@ def turn(board)
   until valid_move?(input) == true
     turn(board)
   end
-
-  end
 end
