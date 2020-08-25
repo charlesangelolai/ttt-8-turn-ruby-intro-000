@@ -1,4 +1,3 @@
-# create a method "display_board" that accepts an array type argument "board" 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts " ----------- "
