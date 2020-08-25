@@ -10,7 +10,6 @@ def input_to_index(input)
   return input.to_i
 end
 
-
 def valid_move?(board, index)
   index > 8 || index < 0 ? false : true
   def position_taken?(board, index)
