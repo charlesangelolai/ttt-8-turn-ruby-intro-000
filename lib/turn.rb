@@ -15,13 +15,5 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  counter = 0
-  flag = false
-  while board[counter] != "" || board[counter] != " "
-    flag = true
-    counter += 1
-  end
-
-  return flag
-
+  board[index] == "" || board[index] == " " ? true : false
 end
