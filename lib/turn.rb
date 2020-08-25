@@ -7,5 +7,8 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-  index > 8 || index < 0 : true
+  index > 8 || index < 0 ? false : true
 end
+
+def position_taken?(board, index)
+  board[index] != "" || board[index] != " " ? false : true
