@@ -37,7 +37,7 @@ def move(board, index, token = "X")
 end
 
 def turn(board)
-  print "Please enter 1-9:"
+  puts "Please enter 1-9:"
   input = gets.chomp
   until valid_move?(board, input) == true
     turn(board)
