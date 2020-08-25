@@ -15,5 +15,5 @@ def valid_move?(board, index)
   def position_taken?(board, index)
     board[input_to_index(index)] != "" || board[input_to_index(index)] != " " ? false : true
   end
-  position_taken(board, index)
+  position_taken(board, input_to_index(index))
 end
