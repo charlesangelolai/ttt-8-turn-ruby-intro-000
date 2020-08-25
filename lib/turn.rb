@@ -1,4 +1,4 @@
-board[9] = {"X", "X", "X", "X", "X", "X", "X", "X", "X"}
+board[8] = {"X", "X", "X", "X", "X", "X", "X", "X", "X"}
 
 def display_board(board)
   puts " {0} | {1} | {2} "
