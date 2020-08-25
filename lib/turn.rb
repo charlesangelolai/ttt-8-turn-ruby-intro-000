@@ -19,8 +19,7 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-  input = input_to_index(index)
-  if index > 8 || board[input] < 0
+  if index > 8 || index < 0
     false
   else
     position_taken?(board, input)
