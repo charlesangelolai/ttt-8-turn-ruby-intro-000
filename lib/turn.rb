@@ -11,8 +11,9 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  flag
+  flag = bool
   index > 8 || index < 0 ? flag = false : flag = true
+
 end
 
 def position_taken?(board, index)
