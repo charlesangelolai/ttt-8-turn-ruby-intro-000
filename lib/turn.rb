@@ -11,9 +11,9 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  input_to_index(index) > 8 || input_to_index(index) < 0 ? false : true
+  index > 8 || index < 0 ? false : true
   def position_taken?(board, index)
-    board[input_to_index(index)] != "" || board[input_to_index(index)] != " " ? false : true
+    board[index] != "" || board[index] != " " ? false : true
   end
-  position_taken(board, input_to_index(index))
+  position_taken(board, index)
 end
