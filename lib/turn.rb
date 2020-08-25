@@ -46,4 +46,5 @@ def turn(board)
   end
 
   move(board, input)
+  display_board(board)
 end
