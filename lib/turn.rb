@@ -41,6 +41,7 @@ def turn(board)
   input = gets.chomp
   until valid_move?(input) == true
     turn(board)
+  end
 
   end
 end
