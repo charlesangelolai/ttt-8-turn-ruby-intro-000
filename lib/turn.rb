@@ -1,10 +1,10 @@
 # Should accept a board as an argument and print out the current state of the board for the user.
 def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "  #{board[0]} | #{board[1]} | #{board[2]} "
   puts " ----------- "
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "  #{board[3]} | #{board[4]} | #{board[5]} "
   puts " ----------- "
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  puts "  #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 # Should accept a board and an index from the user and return true if the index is within the correct range of 0-8 and is currently unoccupied by an X or O token.
