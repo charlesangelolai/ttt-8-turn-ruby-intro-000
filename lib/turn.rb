@@ -8,9 +8,7 @@ end
 
 def valid_move?(board, index)
   index > 8 || index < 0 ? false : true
-  position_taken(board, index)
-end
-
-def position_taken?(board, index)
-  board[index] != "" || board[index] != " " ? false : true
+  def position_taken?(board, index)
+    board[index] != "" || board[index] != " " ? false : true
+  end
 end
